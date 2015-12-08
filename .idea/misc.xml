@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EntryPointsManager">
+    <entry_points version="2.0">
+      <entry_point TYPE="method" FQNAME="name.boyle.chris.sgtpuzzles.SGTPuzzles void gameStarted(java.lang.String whichBackend, java.lang.String title, boolean hasCustom, boolean hasStatus, boolean canSolve, float[] colours)" />
+      <entry_point TYPE="method" FQNAME="name.boyle.chris.sgtpuzzles.SGTPuzzles void addTypeItem(java.lang.String encoded, java.lang.String label)" />
+      <entry_point TYPE="method" FQNAME="name.boyle.chris.sgtpuzzles.SGTPuzzles void completed()" />
+      <entry_point TYPE="method" FQNAME="name.boyle.chris.sgtpuzzles.SGTPuzzles void requestResize(int x, int y)" />
+      <entry_point TYPE="method" FQNAME="name.boyle.chris.sgtpuzzles.SGTPuzzles void setStatus(java.lang.String status)" />
+      <entry_point TYPE="method" FQNAME="name.boyle.chris.sgtpuzzles.SGTPuzzles void requestTimer(boolean on)" />
+      <entry_point TYPE="method" FQNAME="name.boyle.chris.sgtpuzzles.SGTPuzzles void drawPoly(int[] points, int ox, int oy, int line, int fill)" />
+      <entry_point TYPE="method" FQNAME="name.boyle.chris.sgtpuzzles.SGTPuzzles void dialogInit(java.lang.String title)" />
+      <entry_point TYPE="method" FQNAME="name.boyle.chris.sgtpuzzles.SGTPuzzles void dialogAdd(int id, int type, java.lang.String name, java.lang.String value, int selection)" />
+      <entry_point TYPE="method" FQNAME="name.boyle.chris.sgtpuzzles.SGTPuzzles void dialogShow()" />
+      <entry_point TYPE="method" FQNAME="name.boyle.chris.sgtpuzzles.SGTPuzzles void tickTypeItem(int whichType)" />
+      <entry_point TYPE="method" FQNAME="name.boyle.chris.sgtpuzzles.SGTPuzzles void serialiseWrite(byte[] buffer)" />
+      <entry_point TYPE="method" FQNAME="name.boyle.chris.sgtpuzzles.SGTPuzzles java.lang.String gettext(java.lang.String s)" />
+      <entry_point TYPE="class" FQNAME="name.boyle.chris.sgtpuzzles.BackupAgent" />
+      <entry_point TYPE="method" FQNAME="name.boyle.chris.sgtpuzzles.GameView void setMargins(int x, int y)" />
+      <entry_point TYPE="method" FQNAME="name.boyle.chris.sgtpuzzles.GameView void clipRect(int x, int y, int w, int h)" />
+      <entry_point TYPE="method" FQNAME="name.boyle.chris.sgtpuzzles.GameView void unClip(int x, int y)" />
+      <entry_point TYPE="method" FQNAME="name.boyle.chris.sgtpuzzles.GameView void fillRect(int x, int y, int w, int h, int colour)" />
+      <entry_point TYPE="method" FQNAME="name.boyle.chris.sgtpuzzles.GameView void drawLine(int x1, int y1, int x2, int y2, int colour)" />
+      <entry_point TYPE="method" FQNAME="name.boyle.chris.sgtpuzzles.GameView void drawCircle(int x, int y, int r, int lineColour, int fillColour)" />
+      <entry_point TYPE="method" FQNAME="name.boyle.chris.sgtpuzzles.GameView void drawText(int x, int y, int flags, int size, int colour, java.lang.String text)" />
+      <entry_point TYPE="method" FQNAME="name.boyle.chris.sgtpuzzles.GameView int blitterAlloc(int w, int h)" />
+      <entry_point TYPE="method" FQNAME="name.boyle.chris.sgtpuzzles.GameView void blitterFree(int i)" />
+      <entry_point TYPE="method" FQNAME="name.boyle.chris.sgtpuzzles.GameView void blitterSave(int i, int x, int y)" />
+      <entry_point TYPE="method" FQNAME="name.boyle.chris.sgtpuzzles.GameView void blitterLoad(int i, int x, int y)" />
+    </entry_points>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="name.boyle.chris.sgtpuzzles.UsedByJNI" />
+    </list>
+  </component>
+  <component name="NullableNotNullManager">
+    <option name="myDefaultNullable" value="org.jetbrains.annotations.Nullable" />
+    <option name="myDefaultNotNull" value="android.support.annotation.NonNull" />
+    <option name="myNullables">
+      <value>
+        <list size="4">
+          <item index="0" class="java.lang.String" itemvalue="org.jetbrains.annotations.Nullable" />
+          <item index="1" class="java.lang.String" itemvalue="javax.annotation.Nullable" />
+          <item index="2" class="java.lang.String" itemvalue="edu.umd.cs.findbugs.annotations.Nullable" />
+          <item index="3" class="java.lang.String" itemvalue="android.support.annotation.Nullable" />
+        </list>
+      </value>
+    </option>
+    <option name="myNotNulls">
+      <value>
+        <list size="4">
+          <item index="0" class="java.lang.String" itemvalue="org.jetbrains.annotations.NotNull" />
+          <item index="1" class="java.lang.String" itemvalue="javax.annotation.Nonnull" />
+          <item index="2" class="java.lang.String" itemvalue="edu.umd.cs.findbugs.annotations.NonNull" />
+          <item index="3" class="java.lang.String" itemvalue="android.support.annotation.NonNull" />
+        </list>
+      </value>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" assert-keyword="true" jdk-15="true" project-jdk-name="1.7" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+</project>
